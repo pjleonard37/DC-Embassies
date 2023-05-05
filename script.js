@@ -38,8 +38,8 @@ fetch(
 
             // Add the flag with CSS
             el.className = "marker fi fi-" + countryCode;
-            el.style.width = `30px`;
-            el.style.height = `30px`;
+            el.style.width = `75px`;
+            el.style.height = `75px`;
             el.style.backgroundSize = "100%";
 
             // Add marker to the map.
